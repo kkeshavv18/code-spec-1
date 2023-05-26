@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  height: 30vh;
+
+  /* background-color:red; */
+}
+.logo-contaier {
+  padding-top: 6vh;
+}
+
+.logo-text1::before {
+  content: "</>";
+  display: block;
+  font-size: 30px;
+  margin-left: 160px;
+  margin-bottom: -20px;
+  color: white;
+  font-weight: 900;
+}
+.logo-text1 {
+  color: green;
+  margin-right: 5px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.logo-text2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
